@@ -3,14 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
 }
 
 /* ID selector */
 #main-header {
-    background-color: #333;
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
     color: white;
     padding: 20px;
     text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 /* Class selector used on two sections */
@@ -28,7 +31,7 @@ a:hover {
 
 /* Box model properties */
 img {
-    border: 3px solid #333;
+    border: 3px solid #56ab2f;
     padding: 5px;
     max-width: 150px;
 }
